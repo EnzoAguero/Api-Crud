@@ -2,7 +2,7 @@
 
 ## Prueba tecnica con **Node.Js**  
 La api de Library fue creada con la tecnologia Node.js y su framework Express. Como gestor de bases de datos se utilizó MySQL y como ORM la librería Sequelize.
-Para poder utilizar los endpoints en la carpeta scripts existe el archivo "" el cual se ejecuta con la aplicación Postman o la extension de VS Code "Thunder Client"
+Para poder utilizar los endpoints en la carpeta scripts existe el archivo "data.sql" el cual se ejecuta con la aplicación Postman o la extension de VS Code "Thunder Client"
 
 ### ¿Como correr el proyecto?  
 Para poder inicializar el proyecto debe correr los comandos:  
