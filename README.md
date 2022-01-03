@@ -18,17 +18,17 @@ El archvivo .env.example es un ejemplo de que hay que colocar en el .env
 **Copiar en su db el script adjunto de .sql**
 
 Ejemplo: 
-**DB_USERNAME= "player"**
-**DB_PASSWORD= "diamond123"**
+1)DB_USERNAME= "player".
+2)DB_PASSWORD= "diamond123"
 
 ### EndPoints
 
-**Listado de libros = api/**
-**Creacion de libro = api/create**
-**Edicion de libro = api/edit**
-**Eliminacion de libro = api/delete**
+-Listado de libros = api/**;
+-Creacion de libro = api/create**;
+-Edicion de libro = api/edit**;
+-Eliminacion de libro = api/delete**;
 
 **** extras ****
 
-**Detalle de un libro = api/detail/:id**
-**Busqueda de un libro =  api/search?title=name**
+Detalle de un libro = api/detail/:id;
+Busqueda de un libro =  api/search?keywords=name;
