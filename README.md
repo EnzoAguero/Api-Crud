@@ -23,12 +23,12 @@ Ejemplo:
 
 ### EndPoints
 
--Listado de libros = api/**;
--Creacion de libro = api/create**;
--Edicion de libro = api/edit**;
--Eliminacion de libro = api/delete**;
+-Listado de libros = **api/**;
+-Creacion de libro = **api/create**;
+-Edicion de libro = **api/edit**;
+-Eliminacion de libro = **api/delete**;
 
 **** extras ****
 
--Detalle de un libro = api/detail/:id;
--Busqueda de un libro =  api/search?title=name;
+-Detalle de un libro = **api/detail/:id**;
+-Busqueda de un libro =  **api/search?title=name*;
