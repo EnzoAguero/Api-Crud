@@ -31,4 +31,4 @@ Ejemplo:
 **** extras ****
 
 -Detalle de un libro = **api/detail/:id**;
--Busqueda de un libro =  **api/search?keywords=name**;
+-Busqueda de un libro =  **api/search?keywords=name**; Ejemplo: /api/search?keywords=Moby Dick.
