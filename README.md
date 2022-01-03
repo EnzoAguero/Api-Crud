@@ -14,22 +14,21 @@ Y luego que se instalen las dependecias:
 El archvivo .env.example es un ejemplo de que hay que colocar en el .env
 
 ### ¿Como iniciar la base de datos?
-1)Sequelize db:migrate
-**env**
-2) Copiar en su db el script adjunto de .sql
+-Sequelize db:migrate
+-Copiar en su db el script adjunto de .sql
 
 Ejemplo: 
-DB_USERNAME= "player"
-DB_PASSWORD= "diamond123"
+-DB_USERNAME= "player"
+-DB_PASSWORD= "diamond123"
 
 ### EndPoints
 
-Listado de libros = api/
-Creacion de libro = api/create
-Edicion de libro = api/edit
-Eliminacion de libro = api/delete
+-Listado de libros = api/
+-Creacion de libro = api/create
+-Edicion de libro = api/edit
+-Eliminacion de libro = api/delete
 
 **** extras ****
 
-Detall de un libro = api/detail/:id
-Busqueda de un libro =  api/search?title=name
+-Detalle de un libro = api/detail/:id
+-Busqueda de un libro =  api/search?title=name
