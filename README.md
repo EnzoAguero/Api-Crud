@@ -15,6 +15,7 @@ El archvivo .env.example es un ejemplo de que hay que colocar en el .env
 
 ### ¿Como iniciar la base de datos?
 1)Sequelize db:migrate
+**env**
 2) Copiar en su db el script adjunto de .sql
 
 Ejemplo: 
