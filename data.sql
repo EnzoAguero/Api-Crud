@@ -16,25 +16,14 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Dumping data for table `autores`
---
-
-LOCK TABLES `autores` WRITE;
-/*!40000 ALTER TABLE `autores` DISABLE KEYS */;
-INSERT INTO `autores` VALUES (1,'Herman Melville',1,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(2,'Dross Rotzank',2,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(3,'Anna Frank',3,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(4,'Antoine de Saint-Exupéry',4,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(5,'George Orwell',5,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(6,'Hans Christian Andersen',6,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(7,'J. R. R. Tolkien',7,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(8,'Ernesto Sábato',8,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(9,'Julio Cortazar',9,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(10,'Jorge Luis Borges',10,'0000-00-00 00:00:00','0000-00-00 00:00:00');
-/*!40000 ALTER TABLE `autores` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Dumping data for table `libros`
 --
 
 LOCK TABLES `libros` WRITE;
 /*!40000 ALTER TABLE `libros` DISABLE KEYS */;
-INSERT INTO `libros` VALUES (1,'Moby Dick',1500,'1851-10-18 00:00:00','1851-10-18 00:00:00'),(2,'Luna de Pluton',2500,'2015-10-01 00:00:00','2015-10-01 00:00:00'),(3,'El diario de Anna Frank\'',1700,'1947-05-25 00:00:00','1947-05-25 00:00:00'),(4,'El principito',1800,'1943-04-05 00:00:00','1943-04-05 00:00:00'),(5,'Rebelion en la granja',1600,'1945-08-17 00:00:00','1945-08-17 00:00:00'),(6,'El patito feo',900,'1843-10-11 00:00:00','1843-10-11 00:00:00'),(7,'El hobbit',500,'1937-09-21 00:00:00','1937-09-21 00:00:00'),(8,'El tunel',1200,'1948-01-01 00:00:00','1948-01-01 00:00:00'),(9,'Rayuela',1350,'1963-05-28 00:00:00','1963-05-28 00:00:00'),(10,'Ficciones',875,'1944-01-01 00:00:00','1944-01-01 00:00:00');
+INSERT INTO `libros` VALUES (1,'Moby Dick','Herman Melville',550,'1851-10-18 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(2,'Luna de Pluton','Dross Rotzank',1500,'2015-10-01 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(3,'El diario de Anna Frank','Anna Frank',800,'1947-05-25 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(4,'El principito','Antoine de Saint-Exupéry',900,'1943-04-05 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(5,'Rebelion en la granja','George Orwell',950,'1945-08-17 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(6,'El patito feo','Hans Christian Andersen',1250,'1843-10-11 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(7,'El hobbit','J. R. R. Tolkien',1000,'1937-09-21 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(8,'El tunel','Ernesto Sábato',400,'1948-01-01 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(9,'Rayuela','Julio Cortazar',700,'1963-05-28 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00'),(10,'Ficciones','Jorge Luis Borges',600,'1944-01-01 00:00:00','2022-01-01 00:00:00','2022-01-01 00:00:00');
 /*!40000 ALTER TABLE `libros` ENABLE KEYS */;
 UNLOCK TABLES;
-
 
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -45,4 +34,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-01-03 12:24:04
+-- Dump completed on 2022-01-10 17:28:31

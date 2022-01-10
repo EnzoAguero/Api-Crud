@@ -7,7 +7,9 @@ Para poder utilizar los endpoints en la carpeta scripts existe el archivo "data.
 ### ¿Como correr el proyecto?  
 Para poder inicializar el proyecto debe correr los comandos:  
 **npm install**  
-Y luego que se instalen las dependecias:  
+Y luego que se instalen las dependecias,instalar unas aparte:
+**npm install sequelize-cli**
+**npm install nodemon**  
 **nodemon**
 
 ### ¿Como conectarse a la base de datos mediante variables de entorno?  
@@ -21,14 +23,20 @@ Ejemplo:
 -DB_USERNAME= "player";
 -DB_PASSWORD= "diamond123";
 
+### Versiones
+
+**MySql** Version 8.0
+**Sequelize** 6.12.4
+
+
 ### EndPoints
 
--Listado de libros = **api/**;
--Creacion de libro = **api/create**;
--Edicion de libro = **api/edit**;
--Eliminacion de libro = **api/delete**;
+-Listado de libros = **api/libros**;
+-Creacion de libro = **api/libros**;
+-Edicion de libro = **api/libro/:id**;
+-Eliminacion de libro = **api/libro/:id**;
 
 **** extras ****
 
--Detalle de un libro = **api/detail/:id**;
--Busqueda de un libro =  **api/search?keywords=name**; Ejemplo: /api/search?keywords=Moby Dick.
+-Detalle de un libro = **api/libro/:id**;
+
