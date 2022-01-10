@@ -10,7 +10,7 @@ Para poder inicializar el proyecto debe correr los comandos:
 Y luego que se instalen las dependecias,instalar unas aparte:
 **npm install sequelize-cli**
 **npm install nodemon**  
-**nodemon**
+Ejecutar **nodemon** en la terminal.
 
 ### ¿Como conectarse a la base de datos mediante variables de entorno?  
 El archvivo .env.example es un ejemplo de que hay que colocar en el .env
