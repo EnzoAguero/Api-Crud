@@ -1,4 +1,4 @@
-# Prueba tecnica para Sondeos
+# Api de un CRUD de una libreria, donde aplico buenas practicas.
 
 ## Prueba tecnica con **Node.Js**  
 La api de Library fue creada con la tecnologia Node.js y su framework Express. Como gestor de bases de datos se utilizó MySQL y como ORM la librería Sequelize.
